@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		517284021BBDF6EA009ACDF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517284011BBDF6EA009ACDF4 /* AppDelegate.swift */; };
+		517284041BBDF6EA009ACDF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517284031BBDF6EA009ACDF4 /* ViewController.swift */; };
+		517284071BBDF6EA009ACDF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517284051BBDF6EA009ACDF4 /* Main.storyboard */; };
+		5172840A1BBDF6EA009ACDF4 /* Swolemates.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 517284081BBDF6EA009ACDF4 /* Swolemates.xcdatamodeld */; };
+		5172840C1BBDF6EA009ACDF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5172840B1BBDF6EA009ACDF4 /* Assets.xcassets */; };
+		5172840F1BBDF6EA009ACDF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5172840D1BBDF6EA009ACDF4 /* LaunchScreen.storyboard */; };
+		5172841A1BBDF6EA009ACDF4 /* SwolematesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517284191BBDF6EA009ACDF4 /* SwolematesTests.swift */; };
+		517284251BBDF6EA009ACDF4 /* SwolematesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517284241BBDF6EA009ACDF4 /* SwolematesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		517284161BBDF6EA009ACDF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 517283F61BBDF6EA009ACDF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 517283FD1BBDF6EA009ACDF4;
+			remoteInfo = Swolemates;
+		};
+		517284211BBDF6EA009ACDF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 517283F61BBDF6EA009ACDF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 517283FD1BBDF6EA009ACDF4;
+			remoteInfo = Swolemates;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		517283FE1BBDF6EA009ACDF4 /* Swolemates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swolemates.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		517284011BBDF6EA009ACDF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		517284031BBDF6EA009ACDF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		517284061BBDF6EA009ACDF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		517284091BBDF6EA009ACDF4 /* Swolemates.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Swolemates.xcdatamodel; sourceTree = "<group>"; };
+		5172840B1BBDF6EA009ACDF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5172840E1BBDF6EA009ACDF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		517284101BBDF6EA009ACDF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517284151BBDF6EA009ACDF4 /* SwolematesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwolematesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		517284191BBDF6EA009ACDF4 /* SwolematesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwolematesTests.swift; sourceTree = "<group>"; };
+		5172841B1BBDF6EA009ACDF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517284201BBDF6EA009ACDF4 /* SwolematesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwolematesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		517284241BBDF6EA009ACDF4 /* SwolematesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwolematesUITests.swift; sourceTree = "<group>"; };
+		517284261BBDF6EA009ACDF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		517283FB1BBDF6EA009ACDF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517284121BBDF6EA009ACDF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5172841D1BBDF6EA009ACDF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		517283F51BBDF6EA009ACDF4 = {
+			isa = PBXGroup;
+			children = (
+				517284001BBDF6EA009ACDF4 /* Swolemates */,
+				517284181BBDF6EA009ACDF4 /* SwolematesTests */,
+				517284231BBDF6EA009ACDF4 /* SwolematesUITests */,
+				517283FF1BBDF6EA009ACDF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		517283FF1BBDF6EA009ACDF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				517283FE1BBDF6EA009ACDF4 /* Swolemates.app */,
+				517284151BBDF6EA009ACDF4 /* SwolematesTests.xctest */,
+				517284201BBDF6EA009ACDF4 /* SwolematesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		517284001BBDF6EA009ACDF4 /* Swolemates */ = {
+			isa = PBXGroup;
+			children = (
+				517284011BBDF6EA009ACDF4 /* AppDelegate.swift */,
+				517284031BBDF6EA009ACDF4 /* ViewController.swift */,
+				517284051BBDF6EA009ACDF4 /* Main.storyboard */,
+				5172840B1BBDF6EA009ACDF4 /* Assets.xcassets */,
+				5172840D1BBDF6EA009ACDF4 /* LaunchScreen.storyboard */,
+				517284101BBDF6EA009ACDF4 /* Info.plist */,
+				517284081BBDF6EA009ACDF4 /* Swolemates.xcdatamodeld */,
+			);
+			path = Swolemates;
+			sourceTree = "<group>";
+		};
+		517284181BBDF6EA009ACDF4 /* SwolematesTests */ = {
+			isa = PBXGroup;
+			children = (
+				517284191BBDF6EA009ACDF4 /* SwolematesTests.swift */,
+				5172841B1BBDF6EA009ACDF4 /* Info.plist */,
+			);
+			path = SwolematesTests;
+			sourceTree = "<group>";
+		};
+		517284231BBDF6EA009ACDF4 /* SwolematesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				517284241BBDF6EA009ACDF4 /* SwolematesUITests.swift */,
+				517284261BBDF6EA009ACDF4 /* Info.plist */,
+			);
+			path = SwolematesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		517283FD1BBDF6EA009ACDF4 /* Swolemates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517284291BBDF6EA009ACDF4 /* Build configuration list for PBXNativeTarget "Swolemates" */;
+			buildPhases = (
+				517283FA1BBDF6EA009ACDF4 /* Sources */,
+				517283FB1BBDF6EA009ACDF4 /* Frameworks */,
+				517283FC1BBDF6EA009ACDF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swolemates;
+			productName = Swolemates;
+			productReference = 517283FE1BBDF6EA009ACDF4 /* Swolemates.app */;
+			productType = "com.apple.product-type.application";
+		};
+		517284141BBDF6EA009ACDF4 /* SwolematesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5172842C1BBDF6EA009ACDF4 /* Build configuration list for PBXNativeTarget "SwolematesTests" */;
+			buildPhases = (
+				517284111BBDF6EA009ACDF4 /* Sources */,
+				517284121BBDF6EA009ACDF4 /* Frameworks */,
+				517284131BBDF6EA009ACDF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				517284171BBDF6EA009ACDF4 /* PBXTargetDependency */,
+			);
+			name = SwolematesTests;
+			productName = SwolematesTests;
+			productReference = 517284151BBDF6EA009ACDF4 /* SwolematesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5172841F1BBDF6EA009ACDF4 /* SwolematesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5172842F1BBDF6EA009ACDF4 /* Build configuration list for PBXNativeTarget "SwolematesUITests" */;
+			buildPhases = (
+				5172841C1BBDF6EA009ACDF4 /* Sources */,
+				5172841D1BBDF6EA009ACDF4 /* Frameworks */,
+				5172841E1BBDF6EA009ACDF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				517284221BBDF6EA009ACDF4 /* PBXTargetDependency */,
+			);
+			name = SwolematesUITests;
+			productName = SwolematesUITests;
+			productReference = 517284201BBDF6EA009ACDF4 /* SwolematesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		517283F61BBDF6EA009ACDF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = apwex.com;
+				TargetAttributes = {
+					517283FD1BBDF6EA009ACDF4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 4XDV86TPTB;
+					};
+					517284141BBDF6EA009ACDF4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 4XDV86TPTB;
+						TestTargetID = 517283FD1BBDF6EA009ACDF4;
+					};
+					5172841F1BBDF6EA009ACDF4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 4XDV86TPTB;
+						TestTargetID = 517283FD1BBDF6EA009ACDF4;
+					};
+				};
+			};
+			buildConfigurationList = 517283F91BBDF6EA009ACDF4 /* Build configuration list for PBXProject "Swolemates" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 517283F51BBDF6EA009ACDF4;
+			productRefGroup = 517283FF1BBDF6EA009ACDF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				517283FD1BBDF6EA009ACDF4 /* Swolemates */,
+				517284141BBDF6EA009ACDF4 /* SwolematesTests */,
+				5172841F1BBDF6EA009ACDF4 /* SwolematesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		517283FC1BBDF6EA009ACDF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5172840F1BBDF6EA009ACDF4 /* LaunchScreen.storyboard in Resources */,
+				5172840C1BBDF6EA009ACDF4 /* Assets.xcassets in Resources */,
+				517284071BBDF6EA009ACDF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517284131BBDF6EA009ACDF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5172841E1BBDF6EA009ACDF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		517283FA1BBDF6EA009ACDF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517284041BBDF6EA009ACDF4 /* ViewController.swift in Sources */,
+				5172840A1BBDF6EA009ACDF4 /* Swolemates.xcdatamodeld in Sources */,
+				517284021BBDF6EA009ACDF4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517284111BBDF6EA009ACDF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5172841A1BBDF6EA009ACDF4 /* SwolematesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5172841C1BBDF6EA009ACDF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517284251BBDF6EA009ACDF4 /* SwolematesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		517284171BBDF6EA009ACDF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 517283FD1BBDF6EA009ACDF4 /* Swolemates */;
+			targetProxy = 517284161BBDF6EA009ACDF4 /* PBXContainerItemProxy */;
+		};
+		517284221BBDF6EA009ACDF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 517283FD1BBDF6EA009ACDF4 /* Swolemates */;
+			targetProxy = 517284211BBDF6EA009ACDF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		517284051BBDF6EA009ACDF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517284061BBDF6EA009ACDF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5172840D1BBDF6EA009ACDF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5172840E1BBDF6EA009ACDF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		517284271BBDF6EA009ACDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		517284281BBDF6EA009ACDF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5172842A1BBDF6EA009ACDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Swolemates/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apwex.Swolemates;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5172842B1BBDF6EA009ACDF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Swolemates/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apwex.Swolemates;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5172842D1BBDF6EA009ACDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwolematesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apwex.SwolematesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swolemates.app/Swolemates";
+			};
+			name = Debug;
+		};
+		5172842E1BBDF6EA009ACDF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwolematesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apwex.SwolematesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swolemates.app/Swolemates";
+			};
+			name = Release;
+		};
+		517284301BBDF6EA009ACDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwolematesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apwex.SwolematesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Swolemates;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		517284311BBDF6EA009ACDF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwolematesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apwex.SwolematesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Swolemates;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		517283F91BBDF6EA009ACDF4 /* Build configuration list for PBXProject "Swolemates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517284271BBDF6EA009ACDF4 /* Debug */,
+				517284281BBDF6EA009ACDF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517284291BBDF6EA009ACDF4 /* Build configuration list for PBXNativeTarget "Swolemates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5172842A1BBDF6EA009ACDF4 /* Debug */,
+				5172842B1BBDF6EA009ACDF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5172842C1BBDF6EA009ACDF4 /* Build configuration list for PBXNativeTarget "SwolematesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5172842D1BBDF6EA009ACDF4 /* Debug */,
+				5172842E1BBDF6EA009ACDF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5172842F1BBDF6EA009ACDF4 /* Build configuration list for PBXNativeTarget "SwolematesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517284301BBDF6EA009ACDF4 /* Debug */,
+				517284311BBDF6EA009ACDF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		517284081BBDF6EA009ACDF4 /* Swolemates.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				517284091BBDF6EA009ACDF4 /* Swolemates.xcdatamodel */,
+			);
+			currentVersion = 517284091BBDF6EA009ACDF4 /* Swolemates.xcdatamodel */;
+			path = Swolemates.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 517283F61BBDF6EA009ACDF4 /* Project object */;
+}
