@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DEB67331FD6A88993F3DBAD /* Pods_Swolemates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322DA3BAD9A33A686E2A319C /* Pods_Swolemates.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		517284021BBDF6EA009ACDF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517284011BBDF6EA009ACDF4 /* AppDelegate.swift */; };
 		517284041BBDF6EA009ACDF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517284031BBDF6EA009ACDF4 /* ViewController.swift */; };
 		517284071BBDF6EA009ACDF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517284051BBDF6EA009ACDF4 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		5172840F1BBDF6EA009ACDF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5172840D1BBDF6EA009ACDF4 /* LaunchScreen.storyboard */; };
 		5172841A1BBDF6EA009ACDF4 /* SwolematesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517284191BBDF6EA009ACDF4 /* SwolematesTests.swift */; };
 		517284251BBDF6EA009ACDF4 /* SwolematesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517284241BBDF6EA009ACDF4 /* SwolematesUITests.swift */; };
+		51899DB01BC575A600719C31 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51899DAE1BC575A600719C31 /* Alamofire.framework */; };
+		51899DB11BC575A600719C31 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51899DAF1BC575A600719C31 /* SwiftyJSON.framework */; };
 		51DD91771BC488B0000CB3BC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DD91761BC488B0000CB3BC /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		322DA3BAD9A33A686E2A319C /* Pods_Swolemates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swolemates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		517283FE1BBDF6EA009ACDF4 /* Swolemates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swolemates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		517284011BBDF6EA009ACDF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		517284031BBDF6EA009ACDF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +54,11 @@
 		517284201BBDF6EA009ACDF4 /* SwolematesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwolematesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		517284241BBDF6EA009ACDF4 /* SwolematesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwolematesUITests.swift; sourceTree = "<group>"; };
 		517284261BBDF6EA009ACDF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51899DAE1BC575A600719C31 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		51899DAF1BC575A600719C31 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		51DD91761BC488B0000CB3BC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5EACCB0BC284913BAFACF4C1 /* Pods-Swolemates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swolemates.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swolemates/Pods-Swolemates.debug.xcconfig"; sourceTree = "<group>"; };
+		B7BDBDC6FC04A2194EF250BE /* Pods-Swolemates.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swolemates.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swolemates/Pods-Swolemates.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51899DB01BC575A600719C31 /* Alamofire.framework in Frameworks */,
+				51899DB11BC575A600719C31 /* SwiftyJSON.framework in Frameworks */,
+				4DEB67331FD6A88993F3DBAD /* Pods_Swolemates.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +96,8 @@
 				517284181BBDF6EA009ACDF4 /* SwolematesTests */,
 				517284231BBDF6EA009ACDF4 /* SwolematesUITests */,
 				517283FF1BBDF6EA009ACDF4 /* Products */,
+				B64A87D42F0E08A9A646ED5C /* Pods */,
+				B32F8928AA798F80A3A41464 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +144,25 @@
 			path = SwolematesUITests;
 			sourceTree = "<group>";
 		};
+		B32F8928AA798F80A3A41464 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51899DAE1BC575A600719C31 /* Alamofire.framework */,
+				51899DAF1BC575A600719C31 /* SwiftyJSON.framework */,
+				322DA3BAD9A33A686E2A319C /* Pods_Swolemates.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B64A87D42F0E08A9A646ED5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EACCB0BC284913BAFACF4C1 /* Pods-Swolemates.debug.xcconfig */,
+				B7BDBDC6FC04A2194EF250BE /* Pods-Swolemates.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 517284291BBDF6EA009ACDF4 /* Build configuration list for PBXNativeTarget "Swolemates" */;
 			buildPhases = (
+				508837A18E4CBEC4187C4BE1 /* Check Pods Manifest.lock */,
 				517283FA1BBDF6EA009ACDF4 /* Sources */,
 				517283FB1BBDF6EA009ACDF4 /* Frameworks */,
 				517283FC1BBDF6EA009ACDF4 /* Resources */,
+				7AF4B58D46D772288F226235 /* Embed Pods Frameworks */,
+				45D187583335F6648C54556C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,6 +293,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45D187583335F6648C54556C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swolemates/Pods-Swolemates-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		508837A18E4CBEC4187C4BE1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7AF4B58D46D772288F226235 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swolemates/Pods-Swolemates-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		517283FA1BBDF6EA009ACDF4 /* Sources */ = {
@@ -407,8 +490,13 @@
 		};
 		5172842A1BBDF6EA009ACDF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EACCB0BC284913BAFACF4C1 /* Pods-Swolemates.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Swolemates/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apwex.Swolemates;
@@ -418,8 +506,13 @@
 		};
 		5172842B1BBDF6EA009ACDF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7BDBDC6FC04A2194EF250BE /* Pods-Swolemates.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Swolemates/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apwex.Swolemates;
