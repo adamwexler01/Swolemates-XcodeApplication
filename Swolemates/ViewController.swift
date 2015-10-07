@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    var backgroundColor = UIColor()
+    
     @IBOutlet weak var titleOfApplication: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,11 +21,15 @@ class ViewController: UIViewController {
         //Establish Setup Of Application
         
         //Setting the Colors for the background
-        let red = CGFloat(160/255.0)
-        let green = CGFloat(25/255.0)
-        let blue = CGFloat(25/255.0)
-        let alpha = CGFloat(0.75)
-        view.backgroundColor = UIColor(red: red, green: green, blue: blue, alpha: alpha)
+        
+        
+        let red = CGFloat(0.184)
+        let green = CGFloat(0.204)
+        let blue = CGFloat(0.239)
+        let alpha = CGFloat(1.0)
+        backgroundColor = UIColor(red: red, green: green, blue: blue, alpha: alpha)
+        
+        view.backgroundColor = backgroundColor
         
         //Setting the variables for the Title Label
         titleOfApplication.text = "SwoleMates"
@@ -32,9 +39,6 @@ class ViewController: UIViewController {
         titleOfApplication.textAlignment = .Center
         titleOfApplication.font = titleOfApplication.font.fontWithSize(40)
         
-        
-        
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -42,6 +46,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func goToLogin(sender: AnyObject) {
+        
+        performSegueWithIdentifier("LoginScreen", sender: self)
+    
     }
 
     @IBAction func goToNewMember(sender: AnyObject) {
@@ -49,9 +56,13 @@ class ViewController: UIViewController {
 
     @IBAction func goToInstructions(sender: AnyObject) {
     }
-
     
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if (segue.identifier == "LoginScreen") {
+            let destination = segue.destinationViewController as? LoginViewController
+            destination?.loginColor = self.backgroundColor ?? UIColor()
+        }
+    }
     
 }
 

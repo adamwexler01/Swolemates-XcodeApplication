@@ -15,6 +15,7 @@
 		5172840F1BBDF6EA009ACDF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5172840D1BBDF6EA009ACDF4 /* LaunchScreen.storyboard */; };
 		5172841A1BBDF6EA009ACDF4 /* SwolematesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517284191BBDF6EA009ACDF4 /* SwolematesTests.swift */; };
 		517284251BBDF6EA009ACDF4 /* SwolematesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517284241BBDF6EA009ACDF4 /* SwolematesUITests.swift */; };
+		51DD91771BC488B0000CB3BC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DD91761BC488B0000CB3BC /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		517284201BBDF6EA009ACDF4 /* SwolematesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwolematesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		517284241BBDF6EA009ACDF4 /* SwolematesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwolematesUITests.swift; sourceTree = "<group>"; };
 		517284261BBDF6EA009ACDF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51DD91761BC488B0000CB3BC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				5172840D1BBDF6EA009ACDF4 /* LaunchScreen.storyboard */,
 				517284101BBDF6EA009ACDF4 /* Info.plist */,
 				517284081BBDF6EA009ACDF4 /* Swolemates.xcdatamodeld */,
+				51DD91761BC488B0000CB3BC /* LoginViewController.swift */,
 			);
 			path = Swolemates;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51DD91771BC488B0000CB3BC /* LoginViewController.swift in Sources */,
 				517284041BBDF6EA009ACDF4 /* ViewController.swift in Sources */,
 				5172840A1BBDF6EA009ACDF4 /* Swolemates.xcdatamodeld in Sources */,
 				517284021BBDF6EA009ACDF4 /* AppDelegate.swift in Sources */,
@@ -490,6 +494,7 @@
 				5172842B1BBDF6EA009ACDF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5172842C1BBDF6EA009ACDF4 /* Build configuration list for PBXNativeTarget "SwolematesTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +503,7 @@
 				5172842E1BBDF6EA009ACDF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5172842F1BBDF6EA009ACDF4 /* Build configuration list for PBXNativeTarget "SwolematesUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +512,7 @@
 				517284311BBDF6EA009ACDF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
