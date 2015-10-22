@@ -7,12 +7,9 @@
 //
 
 import UIKit
-import Alamofire
-import SwiftyJSON
-
+import Neon
 
 class ViewController: UIViewController {
-
     
     var backgroundColor = UIColor()
     
@@ -55,6 +52,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func goToNewMember(sender: AnyObject) {
+        performSegueWithIdentifier("NewMemberSegue", sender: self)
     }
 
     @IBAction func goToInstructions(sender: AnyObject) {
@@ -63,6 +61,10 @@ class ViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (segue.identifier == "LoginScreen") {
             let destination = segue.destinationViewController as? LoginViewController
+            destination?.loginColor = self.backgroundColor ?? UIColor()
+        }
+        if (segue.identifier == "NewMemberSegue"){
+            let destination = segue.destinationViewController as? BeforeSignUpViewController
             destination?.loginColor = self.backgroundColor ?? UIColor()
         }
     }

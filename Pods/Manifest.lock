@@ -1,22 +1,13 @@
 PODS:
-  - Alamofire (2.0.2)
-  - SwiftyJSON (2.3.0)
+  - Neon (0.0.1)
+  - Onboard (2.1.7)
 
 DEPENDENCIES:
-  - Alamofire (= 2.0.2)
-  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
-
-EXTERNAL SOURCES:
-  SwiftyJSON:
-    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
-
-CHECKOUT OPTIONS:
-  SwiftyJSON:
-    :commit: 3b5d0d4e0c19173b1bf0dc823bde25ad870f70c0
-    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+  - Neon
+  - Onboard
 
 SPEC CHECKSUMS:
-  Alamofire: 8edbab00802a752bb5240cc2abe70e7e881488ad
-  SwiftyJSON: 8d6b61a70277ef2a5d710d372e06e7e2d87fb9e4
+  Neon: cc98818d292e5284169dcee67623571d7b123a3e
+  Onboard: 87648089e1b76d13b4f5bf8f7a1cdb144092f0af
 
 COCOAPODS: 0.38.2

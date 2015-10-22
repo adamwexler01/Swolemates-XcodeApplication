@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Alamofire.xcscheme</key>
+		<key>Neon.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Onboard.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -14,25 +19,20 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SwiftyJSON.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>37E615DE6B762C3B137BADDB4EF313BF</key>
+		<key>20CAA8FCDD0DA1E568E9A6B8CCBD79AE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B9A04D3C9B208813656510FDA8ADAE02</key>
+		<key>31300DBD492D4802D9929BB80046101D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F7BC16C34F8FE42DAD95D621CE0378E4</key>
+		<key>56E3C33EE6E7EEF89514BA90354E6366</key>
 		<dict>
 			<key>primary</key>
 			<true/>

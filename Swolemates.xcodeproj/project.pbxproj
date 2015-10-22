@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4DEB67331FD6A88993F3DBAD /* Pods_Swolemates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322DA3BAD9A33A686E2A319C /* Pods_Swolemates.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		513C7C981BD1880B00CB8485 /* BeforeSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513C7C971BD1880B00CB8485 /* BeforeSignUpViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		513C7C9A1BD18CC100CB8485 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513C7C991BD18CC100CB8485 /* SignUpViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		517284021BBDF6EA009ACDF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517284011BBDF6EA009ACDF4 /* AppDelegate.swift */; };
 		517284041BBDF6EA009ACDF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517284031BBDF6EA009ACDF4 /* ViewController.swift */; };
 		517284071BBDF6EA009ACDF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517284051BBDF6EA009ACDF4 /* Main.storyboard */; };
@@ -16,8 +18,6 @@
 		5172840F1BBDF6EA009ACDF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5172840D1BBDF6EA009ACDF4 /* LaunchScreen.storyboard */; };
 		5172841A1BBDF6EA009ACDF4 /* SwolematesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517284191BBDF6EA009ACDF4 /* SwolematesTests.swift */; };
 		517284251BBDF6EA009ACDF4 /* SwolematesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517284241BBDF6EA009ACDF4 /* SwolematesUITests.swift */; };
-		51899DB01BC575A600719C31 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51899DAE1BC575A600719C31 /* Alamofire.framework */; };
-		51899DB11BC575A600719C31 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51899DAF1BC575A600719C31 /* SwiftyJSON.framework */; };
 		51DD91771BC488B0000CB3BC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DD91761BC488B0000CB3BC /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -40,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		322DA3BAD9A33A686E2A319C /* Pods_Swolemates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swolemates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		513C7C971BD1880B00CB8485 /* BeforeSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeforeSignUpViewController.swift; sourceTree = "<group>"; };
+		513C7C991BD18CC100CB8485 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		517283FE1BBDF6EA009ACDF4 /* Swolemates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swolemates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		517284011BBDF6EA009ACDF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		517284031BBDF6EA009ACDF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,8 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51899DB01BC575A600719C31 /* Alamofire.framework in Frameworks */,
-				51899DB11BC575A600719C31 /* SwiftyJSON.framework in Frameworks */,
 				4DEB67331FD6A88993F3DBAD /* Pods_Swolemates.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,6 +122,8 @@
 				517284101BBDF6EA009ACDF4 /* Info.plist */,
 				517284081BBDF6EA009ACDF4 /* Swolemates.xcdatamodeld */,
 				51DD91761BC488B0000CB3BC /* LoginViewController.swift */,
+				513C7C971BD1880B00CB8485 /* BeforeSignUpViewController.swift */,
+				513C7C991BD18CC100CB8485 /* SignUpViewController.swift */,
 			);
 			path = Swolemates;
 			sourceTree = "<group>";
@@ -347,8 +349,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				513C7C9A1BD18CC100CB8485 /* SignUpViewController.swift in Sources */,
 				51DD91771BC488B0000CB3BC /* LoginViewController.swift in Sources */,
 				517284041BBDF6EA009ACDF4 /* ViewController.swift in Sources */,
+				513C7C981BD1880B00CB8485 /* BeforeSignUpViewController.swift in Sources */,
 				5172840A1BBDF6EA009ACDF4 /* Swolemates.xcdatamodeld in Sources */,
 				517284021BBDF6EA009ACDF4 /* AppDelegate.swift in Sources */,
 			);

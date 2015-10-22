@@ -7,8 +7,6 @@
 //
 
 import UIKit
-import Alamofire
-import SwiftyJSON
 
 class LoginViewController: UIViewController {
 
@@ -31,8 +29,6 @@ class LoginViewController: UIViewController {
         userEmail.text = "Email"
         userPassword.text = "Password"
         loginTitle.font = loginTitle.font.fontWithSize(40)
-        
-        
         
     }
 

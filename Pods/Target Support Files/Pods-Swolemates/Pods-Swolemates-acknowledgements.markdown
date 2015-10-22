@@ -1,9 +1,11 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## Alamofire
+## Neon
 
-Copyright (c) 2014–2015 Alamofire Software Foundation (http://alamofire.org/)
+Copyright (c) 2015 Michael Amaral
+
+MIT LICENSE
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,11 +26,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## SwiftyJSON
+## Onboard
 
-The MIT License (MIT)
+Copyright (c) 2014 Michael Amaral
 
-Copyright (c) 2014 Ruoyu Fu
+MIT LICENSE
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

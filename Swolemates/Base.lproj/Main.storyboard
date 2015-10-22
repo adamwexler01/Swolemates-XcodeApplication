@@ -71,13 +71,53 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="titleOfApplication" destination="Kds-3E-gbs" id="dth-yY-MNp"/>
+                        <outlet property="titleOfApplication" destination="Kds-3E-gbs" id="Q3s-2A-xj9"/>
                         <segue destination="VWa-0F-DpF" kind="presentation" identifier="LoginScreen" id="lQL-Ud-hmQ"/>
+                        <segue destination="6iV-U1-ZkQ" kind="show" identifier="NewMemberSegue" id="Chx-MF-f9O"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="373" y="308"/>
+            <point key="canvasLocation" x="381" y="308"/>
+        </scene>
+        <!--Before Sign Up View Controller-->
+        <scene sceneID="PMa-BO-Md8">
+            <objects>
+                <viewController id="6iV-U1-ZkQ" customClass="BeforeSignUpViewController" customModule="Swolemates" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AhS-Sx-upb"/>
+                        <viewControllerLayoutGuide type="bottom" id="fjp-sK-rFv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Et9-9g-zwq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="GG6-3p-LUq" kind="show" identifier="SignUpSegue" id="7jj-vx-MdD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Imi-RQ-nV3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="381" y="1011"/>
+        </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="2np-J9-IXp">
+            <objects>
+                <viewController id="GG6-3p-LUq" customClass="SignUpViewController" customModule="Swolemates" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zix-0B-LMe"/>
+                        <viewControllerLayoutGuide type="bottom" id="hOb-v9-3hL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iiF-6d-7ci">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="umo-Kh-Mjj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1182" y="1011"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="NZL-kE-B0e">
@@ -102,7 +142,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Rc-oS-hVw">
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="160" y="285" width="181" height="30"/>
                                 </variation>
@@ -137,6 +177,15 @@
                                     <rect key="frame" x="20" y="121" width="360" height="50"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="msA-EJ-T4h">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Let's Lift">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="221" y="358" width="59" height="30"/>
+                                </variation>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -146,6 +195,7 @@
                                 <exclude reference="4EL-Em-kWt"/>
                                 <exclude reference="6Ud-Xc-zhy"/>
                                 <exclude reference="VU5-oQ-4UD"/>
+                                <exclude reference="msA-EJ-T4h"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -155,6 +205,7 @@
                                 <include reference="4EL-Em-kWt"/>
                                 <include reference="6Ud-Xc-zhy"/>
                                 <include reference="VU5-oQ-4UD"/>
+                                <include reference="msA-EJ-T4h"/>
                             </mask>
                         </variation>
                     </view>

@@ -52,10 +52,10 @@ code_sign_if_enabled() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework 'Pods-Swolemates/Alamofire.framework'
-  install_framework 'Pods-Swolemates/SwiftyJSON.framework'
+  install_framework 'Pods-Swolemates/Neon.framework'
+  install_framework 'Pods-Swolemates/Onboard.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework 'Pods-Swolemates/Alamofire.framework'
-  install_framework 'Pods-Swolemates/SwiftyJSON.framework'
+  install_framework 'Pods-Swolemates/Neon.framework'
+  install_framework 'Pods-Swolemates/Onboard.framework'
 fi

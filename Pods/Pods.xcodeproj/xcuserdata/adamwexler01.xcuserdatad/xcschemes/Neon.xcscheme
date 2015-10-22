@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CDFB1EBDACFEB2499EC5E713"
-               BuildableName = "Pods_Swolemates.framework"
-               BlueprintName = "Pods-Swolemates"
+               BlueprintIdentifier = "86C94AB6BA42CA8E9C576045"
+               BuildableName = "Neon.framework"
+               BlueprintName = "Neon"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

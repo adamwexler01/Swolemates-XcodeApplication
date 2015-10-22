@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CDFB1EBDACFEB2499EC5E713"
-               BuildableName = "Pods_Swolemates.framework"
-               BlueprintName = "Pods-Swolemates"
+               BlueprintIdentifier = "8263A5B5197B8F6364826615"
+               BuildableName = "Onboard.framework"
+               BlueprintName = "Onboard"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
